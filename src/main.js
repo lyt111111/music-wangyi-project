@@ -6,7 +6,7 @@ import store from './store'
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  router,//将路由对象注入到new Vue实例中
   store,
   render: h => h(App)
 }).$mount('#app')
